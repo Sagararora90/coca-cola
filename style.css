@@ -8,6 +8,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow:hidden;
 }
 #main{
     height: 100%;
@@ -170,4 +171,8 @@ html,body{
     font-size: 12px;
     width: 80%;
     opacity: 0.6;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
